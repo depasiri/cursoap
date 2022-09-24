@@ -1,0 +1,14 @@
+#include<stdio.h>
+#include<stdlib.h>
+int main (){
+	float idade_dias,ano,mes,dias;
+	printf("escrever os anos");
+	scanf("%f",&ano);
+	printf("escrever os meses");
+	scanf("%f",&mes);
+	printf("escrever os dias");
+	scanf("%f",&dias);
+	system ("cls");
+	idade_dias=ano*365+meses*30+dias;
+	printf("a idade em dias e:%2.f",idade_dias);
+}
